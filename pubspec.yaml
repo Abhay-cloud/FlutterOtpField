@@ -1,6 +1,6 @@
 name: flutterotpfield
 description: Customizable OTP field.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/Abhay-cloud/FlutterOtpField
 
 environment:

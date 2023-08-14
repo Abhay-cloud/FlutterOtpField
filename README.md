@@ -2,25 +2,41 @@
 # Flutter Otp Field
 Customizable OTP field.
 
+[![pub package](https://img.shields.io/pub/v/flutter_otp_text_field.svg)](https://pub.dev/packages/flutterotpfield)
+![GitHub top language](https://img.shields.io/github/languages/top/Abhay-cloud/FlutterOtpField)
+
+![](screenshots/img.png)
+
+[Checkout example project](example/lib/main.dart)
 ## Installation
 
-1. Import package
+1. Run this command:
+```dart
+$ flutter pub add flutterotpfield
+```
+or manually add this to your pubspec.yaml
+```dart
+dependencies:
+  flutterotpfield: ^0.0.3
+```
+
+2. Import package
 
 ```dart
 import 'package:flutterotpfield/flutterotpfield.dart';
 ```
 
-2. Use FlutterOtpField widget
+3. Use FlutterOtpField widget
 ```dart
  FlutterOtpField(
-                inputFieldLength: 6,
-                spaceBetweenFields: 10,
-                onValueChange: (String value) {
-                  print("otp changed $value");
-                },
-                onCompleted: (String value) {
-                  print("otp  $value");
-                },)
+inputFieldLength: 6,
+spaceBetweenFields: 10,
+onValueChange: (String value) {
+print("otp changed $value");
+},
+onCompleted: (String value) {
+print("otp  $value");
+},)
 ```
 
 ## Documentation
